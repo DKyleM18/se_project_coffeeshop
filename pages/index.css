@@ -185,10 +185,13 @@
   line-height: 52px;
 }
 
-.reservation__form {
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.reservation__form {
   width: 385px;
   margin-bottom: 120px;
 }
