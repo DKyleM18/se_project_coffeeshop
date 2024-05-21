@@ -124,7 +124,69 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="book-a-table"></section>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label form__label_type_name"
+                >Name *</label
+              >
+              <input
+                id="name"
+                type="text"
+                class="form__input form__input_type_name"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="guests" class="form__label form__label_type_guests"
+                >Number of guests *</label
+              >
+              <input
+                id="guests"
+                type="number"
+                class="form__input form__input_type_guests"
+                placeholder="1-8"
+                required
+              />
+              <label
+                for="date-time"
+                class="form__label form__label_type_date-time"
+                >Date & time *</label
+              >
+              <input
+                id="date-time"
+                type="datetime-local"
+                class="form__input form__input_type_date-time"
+                required
+              />
+              <label for="email" class="form__label form__label_type_email"
+                >Your email *</label
+              >
+              <input
+                id="email"
+                type="email"
+                class="form__input form__input_type_email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button
+              type="submit"
+              class="form__button form__button_book-a-table"
+            >
+              Book a table
+            </button>
+            <label for="agree" class="form__label form__label_type_checkbox">
+              <input
+                id="agree"
+                type="checkbox"
+                class="form__checkbox"
+                required
+              />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
       </main>
