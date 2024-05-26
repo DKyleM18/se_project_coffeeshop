@@ -1,0 +1,63 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  background: center / cover no-repeat url(../images/background_header.svg);
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__title {
+  max-width: 729px;
+  margin: 183px 0 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  z-index: 1;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  max-width: 683px;
+  margin: 20px 0 0;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0 0;
+  font-weight: 500;
+  color: #838383;
+  align-items: flex-end;
+}
+
+.header__hours p {
+  margin: 0;
+}
+
+.header__address p {
+  margin: 0;
+}
