@@ -1,16 +1,7 @@
 .card {
   display: flex;
-}
-
-.card__box {
-  display: flex;
   flex-direction: column;
   width: 540px;
-  margin-bottom: 100px;
-}
-
-.card__box:first-of-type {
-  margin-right: 100px;
 }
 
 .card__box:last-of-type {
